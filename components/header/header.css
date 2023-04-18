@@ -14,10 +14,11 @@
     height: 30px;
 }
 
-.header__title {
+.header__title-wrap {
+    
 }
 
-.header__h1 {
+.header__title {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
