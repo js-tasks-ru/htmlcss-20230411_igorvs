@@ -5,9 +5,6 @@
 }
 
 .header__head {
-    height: 34px;
-    left: 165px;
-    top: 24px;
 }
 
 .header__logo {
@@ -25,16 +22,4 @@
     font-size: 50px;
     line-height: 64px; 
     color: #212429;
-}
-
-.header__nav {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 0px;
-    gap: 40px;
-    width: 469px;
-    height: 37px;
-    left: 165px;
-    top: 200px;
 }
