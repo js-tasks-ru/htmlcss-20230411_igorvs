@@ -28,6 +28,7 @@
     --primary: var(--blue);
     --primary-hover: var(--blue-hover);
     --primary-disabled: var(--blue-disabled);
+    --histogram-blue: var(--blue-disabled);
     --secondary: var(--purple);
     --secondary-hover: var(--purple-hover);
     --secondary-disabled: var(--purple-disabled);
