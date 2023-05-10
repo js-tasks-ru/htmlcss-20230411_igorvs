@@ -1,3 +1,16 @@
 .page {
-    
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas: "Header" 
+                         "Main" 
+                         "Footer";
 }
+
+@media screen and (max-width: 480px) {
+    .page {
+        grid-template-rows: auto 1fr;
+        grid-template-areas: "Header" 
+                             "Main";
+    } 
+}
+

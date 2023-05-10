@@ -1,6 +1,15 @@
 .main {
-    height: 600px;
+    grid-area: Main;
+    padding-bottom: 90px;
     border-style: solid;
     border-width: 2px 0px;
-    border-color: #DDE2E5;
+    border-color: var(--grey-2);
+    background-color: var(--background-color);
+}
+
+@media screen and (max-width: 480px) {
+    .main {
+        border-width: 2px 0px 0px 0px;
+        padding-bottom: 110px;
+    }
 }

@@ -1,10 +1,25 @@
 .header {
+    grid-area: Header;
     padding-top: 24px;
     padding-left: 160px;
+}
 
+@media screen and (max-width: 480px) {
+    .header {
+        padding-top: 19px;
+        padding-bottom: 69px;
+        padding-left: 16px;
+    }
 }
 
 .header__head {
+}
+
+@media screen and (max-width: 480px) {
+    .header__head {
+        text-align: center;  
+        padding-bottom: 48px;
+    }
 }
 
 .header__logo {
@@ -21,5 +36,14 @@
     font-weight: 500;
     font-size: 50px;
     line-height: 64px; 
-    color: #212429;
+    color: var(--black);
+}
+
+@media screen and (max-width: 480px) {
+    .header__title {
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 38px;
+        color: var(--grey-4);
+    }
 }

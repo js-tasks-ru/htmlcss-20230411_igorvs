@@ -1,0 +1,11 @@
+.item {
+    background-color: var(--white);
+    max-width: 350px;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 480px) {
+    .item {
+        max-width: 164px;
+    }
+}
