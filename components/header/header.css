@@ -4,7 +4,7 @@
     padding-left: 160px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 375px) {
     .header {
         padding-top: 19px;
         padding-bottom: 69px;
@@ -15,7 +15,7 @@
 .header__head {
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 375px) {
     .header__head {
         text-align: center;  
         padding-bottom: 48px;
@@ -39,7 +39,7 @@
     color: var(--black);
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 375px) {
     .header__title {
         font-weight: 400;
         font-size: 28px;

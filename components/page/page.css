@@ -6,7 +6,7 @@
                          "Footer";
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 375px) {
     .page {
         grid-template-rows: auto 1fr;
         grid-template-areas: "Header" 
