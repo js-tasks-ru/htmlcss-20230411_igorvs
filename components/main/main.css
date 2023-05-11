@@ -1,6 +1,21 @@
 .main {
-    height: 600px;
+    grid-area: Main;
+    padding: 68px 165px;
     border-style: solid;
     border-width: 2px 0px;
-    border-color: #DDE2E5;
+    border-color: var(--grey-2);
+    background-color: var(--background-color);
+    display: grid;
+    gap: 32px;
+    align-content: center;
+    grid-template-columns: auto auto auto;
+}
+
+@media screen and (max-width: 767px) {
+    .main {
+        grid-template-columns: auto auto;
+        border-width: 2px 0px 0px 0px;
+        padding: 22px 16px 110px 22px;
+        gap: 16px;
+    }
 }

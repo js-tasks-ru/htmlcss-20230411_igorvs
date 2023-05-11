@@ -1,9 +1,16 @@
 .footer {
+    grid-area: Footer;
     padding-top: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-self: center;
     padding-bottom: 136px;
+}
+
+@media screen and (max-width: 767px) {
+    .footer {
+        display: none;
+    } 
 }
 
 .footer__body {
@@ -17,7 +24,7 @@
     font-weight: 500;
     font-size: 38px;
     line-height: 48px;
-    color: #212429;
+    color: var(--black);
 }
 
 .footer__description {
@@ -27,5 +34,5 @@
     font-size: 16px;
     line-height: 24px;
     text-align: center;
-    color: #212429;
+    color: var(--black);
 }
