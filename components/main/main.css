@@ -11,7 +11,7 @@
     grid-template-columns: auto auto auto;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 767px) {
     .main {
         grid-template-columns: auto auto;
         border-width: 2px 0px 0px 0px;

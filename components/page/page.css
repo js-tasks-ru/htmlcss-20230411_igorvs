@@ -5,12 +5,3 @@
                          "Main" 
                          "Footer";
 }
-
-@media screen and (max-width: 375px) {
-    .page {
-        grid-template-rows: auto 1fr;
-        grid-template-areas: "Header" 
-                             "Main";
-    } 
-}
-

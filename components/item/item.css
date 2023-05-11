@@ -5,7 +5,7 @@
     border-radius: 12px;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 767px) {
     .item {
         border-radius: 8px;
     }
@@ -18,7 +18,7 @@
     padding-bottom: 80%;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 767px) {
     .item__main {
         width: 164px;
         padding-bottom: 100%;
